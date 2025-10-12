@@ -1,0 +1,9 @@
+path: /content/data
+train: train/images
+val: validation/images
+nc: 4
+names:
+- 1_Rupee_Coin
+- 2_Rupee_Coin
+- 5_Rupee_Coin
+- 10_Rupee_Coin
