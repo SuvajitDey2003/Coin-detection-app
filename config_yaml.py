@@ -43,3 +43,4 @@ create_data_yaml(path_to_classes_txt, path_to_data_yaml)
 
 print('\nFile contents:\n')
 !cat /content/data.yaml
+
