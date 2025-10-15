@@ -62,15 +62,15 @@ Then open http://localhost:8501 in your browser.
 
 ## 📸 How It Works
 
-Load the trained YOLOv11 model (my_model.pt).
+1. Load the trained YOLOv11 model (my_model.pt).
 
-Capture an image from webcam or upload a file.
+2. Capture an image from webcam or upload a file.
 
-YOLO detects coins and returns bounding boxes.
+3. YOLO detects coins and returns bounding boxes.
 
-Draws rectangles with class labels and confidence scores.
+4. Draws rectangles with class labels and confidence scores.
 
-Counts total coins and displays the rupee value.
+5. Counts total coins and displays the rupee value.
 
 ---
 
