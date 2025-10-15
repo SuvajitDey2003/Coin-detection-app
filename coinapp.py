@@ -1,7 +1,7 @@
 import streamlit as st
+from ultralytics import YOLO
 import cv2
 import numpy as np
-from ultralytics import YOLO
 import tempfile
 import time
 
@@ -232,3 +232,4 @@ elif source_option == "Use Webcam":
             st.session_state.cap.release()
             st.session_state.cap = None
         st.success("🛑 Webcam stopped.")
+
